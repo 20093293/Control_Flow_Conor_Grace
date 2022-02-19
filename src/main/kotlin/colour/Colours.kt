@@ -64,4 +64,7 @@ class Colours {
 
     }
 
+    fun randomiseOrder(): List<String>{
+        return colours.shuffled()
+    }
 }

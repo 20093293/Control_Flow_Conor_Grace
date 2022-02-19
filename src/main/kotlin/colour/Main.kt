@@ -52,4 +52,6 @@ fun main(args: Array<String>){
     //TODO for the three additional functions you wrote in Colours.kt, print the returned value here.
 
     println("A random colour from the list is: ${colours.selectRandom()}")
+
+    println("Randomised order of the list is: ${colours.randomiseOrder()}")
 }
