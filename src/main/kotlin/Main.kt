@@ -40,7 +40,7 @@ fun rangeOf(number: Int){
         in 1 ..5 -> println("$number falls into the range of 1 to 5")
         in 6 .. 10 -> println("$number falls into the range of 6 to 10")
         in 11 .. 20 -> println("$number falls into the range of 11 to 20")
-        in Int.MAX_VALUE .. 21 -> println("$number falls into the range of 21 or above")
+        in Int.MAX_VALUE .. 21 -> println("$number falls into the range of 21 or above!")
     }
 
 
