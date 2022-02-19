@@ -23,7 +23,7 @@ class Colours {
         return "this should return the last colour in the list"
     }
 
-    fun coloursInAplhabeticOrder() : List<String>{
+    fun coloursInAlphabeticOrder() : List<String>{
         //TODO return the colours in alphabetical order
         return listOf("this should return colours in alphabetic order")
     }
@@ -40,7 +40,7 @@ class Colours {
 
     fun coloursWithSpecificNumberOfChars(size: Int) : List<String>{
         //TODO return the colours that have exactly the same number of chars as the number passed as a parameter
-        return listOf("this should return colours that have ${size} chars!")
+        return colours.filter { it.length == 6 }
     }
 
     fun coloursWithLessCharsThan(size: Int) : List<String>{

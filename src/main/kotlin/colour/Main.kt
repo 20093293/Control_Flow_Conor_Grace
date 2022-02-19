@@ -32,7 +32,7 @@ fun main(args: Array<String>){
     print(colours.lastColour())
 
     println("Sorted list is: ")
-    print(colours.coloursInAplhabeticOrder())
+    print(colours.coloursInAlphabeticOrder())
 
     print("CAPITALISED list is:")
     print(colours.coloursInAllCapitals())
@@ -40,8 +40,7 @@ fun main(args: Array<String>){
     println("Colours starting with specific letter ___ [ B was chosen ]")
     print(colours.coloursStartingWithLetter('B'))
 
-    print("Colours with a specific number of chars ___ [ 6 was chosen]")
-    println(colours.coloursWithSpecificNumberOfChars(6))
+    print("Colours with a specific number of chars [ 6 was chosen] = ${colours.coloursWithSpecificNumberOfChars(6)}")
 
     println("___ have less than less 6 chars ")
     print (colours.coloursWithLessCharsThan(6))
