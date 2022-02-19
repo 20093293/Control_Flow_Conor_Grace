@@ -35,6 +35,14 @@ fun rangeOf(number: Int){
     // The ranges are: (0 or below) (1 to 5), (6 to 10), (11 to 20), (21+)
     // For example, if the number was 7, print out a message saying that the number 7 falls into the range 6 to 10.
 
+    when(number) {
+        in Int.MIN_VALUE .. 0 -> println("$number falls into the range of 0 or below")
+        in 1 ..5 -> println("$number falls into the range of 1 to 5")
+        in 6 .. 10 -> println("$number falls into the range of 6 to 10")
+        in 11 .. 20 -> println("$number falls into the range of 11 to 20")
+        in Int.MAX_VALUE .. 21 -> println("$number falls into the range of 21 or above")
+    }
+
 
 }
 
@@ -43,6 +51,7 @@ fun inferredTypeOf(variable: Any){
     // When the type is Int, print out that the data type of the variable is Int.
     //    Adopt the same approach for the following types: Long, Double, Float or Boolean.
     // When the data type is not Int, Long, Double, Float or Boolean, print that the data type is something else.
+
 }
 
 fun stringContains(str : String){
