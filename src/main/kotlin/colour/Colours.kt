@@ -20,12 +20,12 @@ class Colours {
 
     fun lastColour() : String{
         //TODO return the last colour list
-        return "this should return the last colour in the list"
+        return colours.get(8)
     }
 
     fun coloursInAlphabeticOrder() : List<String>{
         //TODO return the colours in alphabetical order
-        return listOf("this should return colours in alphabetic order")
+        return colours.sorted()
     }
 
     fun coloursInAllCapitals() : List<String>{
