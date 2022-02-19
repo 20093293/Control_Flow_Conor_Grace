@@ -67,4 +67,9 @@ class Colours {
     fun randomiseOrder(): List<String>{
         return colours.shuffled()
     }
+
+    fun groupingItemsBy(): Map<Int, List<String>> {
+        //intelliJ suggested this change to the Map<Int, instead of the List<String> I originally put
+        return colours.groupBy { it.length }
+    }
 }

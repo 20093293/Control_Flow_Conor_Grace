@@ -54,4 +54,6 @@ fun main(args: Array<String>){
     println("A random colour from the list is: ${colours.selectRandom()}")
 
     println("Randomised order of the list is: ${colours.randomiseOrder()}")
+
+    println("Heres the items grouped by length: ${colours.groupingItemsBy()}")
 }
